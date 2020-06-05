@@ -1,0 +1,11 @@
+---
+- provider_name: Joyeria Lunas
+  provider_url: https://360.joyerialunas.com/
+  endpoints:
+  - schemes:
+    - https://360.joyerialunas.com/*
+    url: https://360.joyerialunas.com/oembed
+    discovery: true
+    example_urls:
+    - https://360.joyerialunas.com/oembed?url=https://360.joyerialunas.com/SANTINO22.html
+    ...
